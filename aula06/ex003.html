@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso JS</title>
+</head>
+<style>
+    body{
+        background-color: azure;
+        text-align: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1,h2{color: yellowgreen; 
+        font-size: 25px;
+    }
+</style>
+<script>
+    //parseint (converte string para numero e retorna só parte inteira)
+    //parsefloat(converte string para numero e retorna real)
+    var n1=Number.parseFloat( window.prompt("Digite 1°número"))
+    var n2=parseFloat( window.prompt("Digite 2° número")) //Number pode ser omitido
+    var n3=Number( window.prompt("Digite 3° número"))// ou posso escrever so number
+    var s=(n1+n2+n3) //para converter numero para string o comando é STRING()
+    
+    window.alert(`A soma de ${n1} + ${n2} + ${n3} é: `+s) //resposta usandp templeite string entre `crase` e usando ${}
+</script>
+<body>
+    <h1>Olá Mundo</h1>
+      
+    <p>Me livrei da maldição</p>
+</body>
+</html>
